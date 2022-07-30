@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 50%;
+    width: 50%;
+}
+i{
+   font-size: 50px;
+   height: 50px;
+   width: 50px;
+}
+.fa-circle-check{
+color: green;
+margin-right:24px;
+}

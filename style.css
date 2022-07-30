@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    height: 55vh;
+    width: 70%;
+    align-items: center;
+    margin-top: 122px;
+    -webkit-box-shadow: 0px 0px 18px 3px rgba(107, 104, 107, 1);
+    -moz-box-shadow: 0px 0px 18px 3px rgba(107, 104, 107, 1);
+    box-shadow: 0px 0px 18px 3px rgba(107, 104, 107, 1);
+}
+
+#logo img {
+    height: 100%;
+    width: 75%;
+    margin-left: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    width: 50%;
+    margin-right: 33px;
+    margin-top: 23px;
+    padding: 13px;
+}
+
+form input {
+    margin: 6px;
+    padding: 6px;
+    border-radius: 18px;
+    border: none;
+    border-bottom: 2px solid #6C63FF;
+    outline: none;
+}
+
+a{
+    margin-left: 34px;
+    margin-top: 12px;
+}
+
+.check {
+    display: flex;
+    font-size: 0.8rem;
+}
+
+button {
+    font-size: 14px;
+    margin-top: 25px;
+    padding: 8px;
+    background-color: #6C63FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+
+}
+
+.weak{
+    border-bottom: 2px solid red;
+}
+
+.medium{
+    border-bottom: 2px solid orange;
+}
+.strong{
+    border-bottom: 2px solid #247F52;
+}
+.PassCheck{
+    color: red;
+    font-size: 0.8rem;
+}
+
